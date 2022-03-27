@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#F3FEFF"
+        android:layout_marginTop="@dimen/fragment_vertical_margin"
+        android:layout_marginLeft="@dimen/fragment_horizontal_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/routeImg"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:srcCompat="@drawable/sgroundislandloop" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/routeImg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <TextView
+                android:id="@+id/routeName"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/fragment_horizontal_margin"
+                android:layout_marginTop="@dimen/fragment_vertical_margin"
+                android:text="Bishan Park to Ulu Sembawang Park"
+                android:textColor="@color/black"
+                android:textSize="@dimen/subheading_size"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.DeviceDefault.RatingBar.Small"
+                android:numStars="5"
+                android:layout_marginStart="@dimen/fragment_horizontal_margin"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/fragment_vertical_margin"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/routeName"/>
+
+            <TextView
+                android:id="@+id/routeRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="@dimen/card_margin"
+                android:layout_marginBottom="@dimen/fragment_vertical_margin"
+                android:text="5.0"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                app:layout_constraintStart_toEndOf="@+id/rating_bar"
+                app:layout_constraintTop_toBottomOf="@+id/routeName" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/fragment_horizontal_margin"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_right_arrow" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
