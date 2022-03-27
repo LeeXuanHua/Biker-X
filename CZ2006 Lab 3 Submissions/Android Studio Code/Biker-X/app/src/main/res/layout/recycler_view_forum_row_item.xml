@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forumThreadRowItemFrame"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recycler_view_forum_row_item_height">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/forumRow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recycler_view_forum_row_item_height">
+
+        <TextView
+            android:id="@+id/forumThreadName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/recycler_view_forum_row_item_forumThreadName_text"
+            android:textColor="@color/recycler_view_forum_row_item_forumThreadName_color"
+            android:textSize="@dimen/recycler_view_forum_row_item_forumThreadName_textSize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/forumThreadDescription"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/recycler_view_forum_row_item_forumThreadDescription_height"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/recycler_view_forum_row_item_forumThreadDescription_text"
+            android:textColor="@color/recycler_view_forum_row_item_forumThreadDescription_color"
+            android:textSize="@dimen/recycler_view_forum_row_item_forumThreadDescription_textSize"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/forumThreadButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/forumThreadName" />
+
+        <Button
+            android:id="@+id/forumThreadButton"
+            android:layout_width="60dp"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
