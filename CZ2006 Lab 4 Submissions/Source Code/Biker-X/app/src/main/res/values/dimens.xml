@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="title_size">22sp</dimen>
+    <dimen name="subheading_size">18sp</dimen>
+    <dimen name="card_subheading">15sp</dimen>
+    <dimen name="card_float">26sp</dimen>
+    <!--    Dimensions for ForumThread-->
+    <dimen name="recycler_view_forum_row_item_height">100dp</dimen>
+    <dimen name="recycler_view_forum_row_item_forumThreadName_textSize">20sp</dimen>
+    <dimen name="recycler_view_forum_row_item_forumThreadDescription_height">18dp</dimen>
+    <dimen name="recycler_view_forum_row_item_forumThreadDescription_textSize">12sp</dimen>
+    <!--    Dimensions for Message-->
+    <dimen name="recycler_view_message_row_item_width">300dp</dimen>
+    <dimen name="recycler_view_message_row_item_messageName_textSize">14sp</dimen>
+    <dimen name="recycler_view_message_row_item_messageContent_textSize">12sp</dimen>
+    <dimen name="recycler_view_message_row_item_messageTime_textSize">10sp</dimen>
+    <dimen name="recycler_view_message_row_date_textSize">14sp</dimen>
+    <!--    Dimensions for Message Bar-->
+    <dimen name="send_message_bar_textSize">14sp</dimen>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.bikerx.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_recommendationsFragment"
+            app:destination="@id/recommendationsFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_startCyclingFragment"
+            app:destination="@id/startCyclingFragment"/>
+        <action
+            android:id="@+id/action_navigation_home_to_goalsFragment"
+            app:destination="@id/goalsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.bikerx.ui.fullmap.FullMapFragment"
+        tools:layout="@layout/fragment_full_map" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.bikerx.ui.history.CyclingHistoryFragment"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_navigation_history_to_goalsFragment"
+            app:destination="@id/goalsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.example.bikerx.ui.chat.ChatFragment"
+        tools:layout="@layout/chat_fragment" >
+        <action
+            android:id="@+id/action_navigation_chat_to_startMessageFragment"
+            app:destination="@id/startMessageFragment" />
+        <argument
+            android:name="threadId"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:id="@+id/recommendationsFragment"
+        android:name="com.example.bikerx.ui.home.RecommendationsFragment"
+        tools:layout="@layout/recommendations_fragment" >
+        <action
+            android:id="@+id/action_recommendationsFragment_to_startCyclingFragment"
+            app:destination="@id/startCyclingFragment">
+            <argument
+                android:name="routeId"
+                app:argType="string"
+                app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/startCyclingFragment"
+        android:name="com.example.bikerx.ui.session.CyclingSessionFragment"
+        tools:layout="@layout/cycling_session_fragment" >
+        <action
+            android:id="@+id/action_startCyclingFragment_to_sessionSummaryFragment"
+            app:destination="@id/sessionSummaryFragment" />
+        <argument
+            android:name="routeId"
+            app:argType="string"
+            app:nullable="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bikerx.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/goalsFragment"
+        android:name="com.example.bikerx.ui.goals.GoalsFragment"
+        tools:layout="@layout/goals_fragment" />
+    <fragment
+        android:id="@+id/sessionSummaryFragment"
+        android:name="com.example.bikerx.ui.session.SessionSummaryFragment"
+        tools:layout="@layout/session_summary_fragment" >
+        <argument
+            android:name="distanceTravelled"
+            app:argType="string"/>
+        <argument
+            android:name="timeElapsed"
+            app:argType="long"/>
+        <argument
+            android:name="routeId"
+            app:nullable="true"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:id="@+id/startMessageFragment"
+        android:name="com.example.bikerx.ui.chat.MessageFragment"
+        tools:layout="@layout/message_fragment" >
+        <action
+            android:id="@+id/action_startMessageFragment_to_navigation_chat"
+            app:destination="@id/navigation_chat" />
+        <action
+            android:id="@+id/action_startMessageFragment_self"
+            app:destination="@id/startMessageFragment" />
+        <argument
+            android:name="threadId"
+            app:argType="string"/>
+        <argument
+            android:name="threadName"
+            app:argType="string"/>
+    </fragment>
+</navigation>
