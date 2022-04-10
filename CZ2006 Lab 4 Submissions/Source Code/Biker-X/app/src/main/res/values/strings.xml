@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">BIKER-X</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_map">Map</string>
+    <string name="title_history">History</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_settings">Settings</string>
+    <string name="home_title_text_line_1">Find Your</string>
+    <string name="home_title_text_line_2">Preferred Cycling Route</string>
+    <string name="view_map_button">View Map</string>
+    <string name="view_goals_button">View Goals</string>
+    <string name="google_login_button">Continue with Google</string>
+    <string name="own_route_button">Cycling on my own route today!</string>
+    <string name="recommended_routes_text">Recommended Routes</string>
+    <string name="see_all">See all</string>
+    <string name="all_routes">All routes</string>
+    <string name="cycling_profile">Cycling Profile</string>
+    <string name="date_time_placeholder">01 Jan 2022 - 8:00 AM</string>
+    <string name="distance_placeholder">0.00</string>
+    <string name="distance_value">%.2f</string>
+    <string name="distance_km">km</string>
+    <string name="avg_speed_text">Avg speed: </string>
+    <string name="avg_speed_placeholder">0.00</string>
+    <string name="avg_speed_unit">km/h</string>
+    <string name="start">Start</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_signout_title">Sign Out</string>
+    <string name="confirm_signout_message">Are you sure you want to sign out?</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="session_ended">Your session has ended</string>
+    <string name="rate_route">Rate this route!</string>
+    <string name="bicycle_rack">Nearest Bicycle Racks</string>
+    <string name="edit_goals">Edit Goal</string>
+    <string name="time_details_text">min</string>
+    <string name="cycling_history_title">Cycling History</string>
+    <string name="cycling_history_goal">Monthly goals</string>
+    <string name="duration_placeholder">00:00</string>
+    <string name="distance_text">Distance</string>
+    <string name="speed_text">Avg Speed</string>
+    <string name="slash">/</string>
+    <string name="distance_km_with_slash">km /</string>
+    <string name="goals_chronometer_placeholder">0h 0m</string>
+
+    <string name="biker_x_community_forum">Biker-X Community Forum</string>
+    <string name="recycler_view_forum_row_item_forumThreadName_text">Biking Along East Coast</string>
+    <string name="recycler_view_forum_row_item_forumThreadDescription_text">Let\'s go makan after that!</string>
+    <!-- Strings for Message -->
+    <string name="forum_thread_heading">Biking Along East Cost Park</string>
+    <string name="recycler_view_message_row_item_messageName_text">Liau G Wayne</string>
+    <string name="recycler_view_message_row_item_messageContent_text">The marathon is coming up, anyone in? Spamming more letters to test the UI if it will overflowing and look really bad, otherwise I will just impose a character limit for text messages!</string>
+    <string name="recycler_view_message_row_item_messageTime_text">10:45</string>
+    <string name="recycler_view_message_row_date_text">28 January 2022</string>
+    <string name="continue_with_email">CONTINUE WITH EMAIL</string>
+    <string name="report_bug_label">Report Bug</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="route_flags">
+        <item>@drawable/bishan</item>
+        <item>@drawable/centralloop</item>
+        <item>@drawable/changiloop</item>
+        <item>@drawable/coneyhalus</item>
+        <item>@drawable/ecpmarina</item>
+        <item>@drawable/godzilla</item>
+        <item>@drawable/hollandloop</item>
+        <item>@drawable/kranjimarshesloop</item>
+        <item>@drawable/mandailoop</item>
+        <item>@drawable/northparks</item>
+        <item>@drawable/selatarloop</item>
+        <item>@drawable/sgroundislandloop</item>
+        <item>@drawable/westloop</item>
+    </string-array>
+</resources>
