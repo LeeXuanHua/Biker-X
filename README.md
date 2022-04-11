@@ -7,6 +7,10 @@
 <p> Our solution - <i> Biker X </i> - is a mobile cycling buddy that tracks your cycling sessions and connects you with like-minded bikers. We cater to local bikers of all walks of life. Whether you are a new cyclist, leisure biking enthusiast, or a competitive biker, <i> Biker-X </i> is the perfect app to meet your needs. </p>
 
 
+## Demo Video of Our Solution
+[![Demo Video](/Biker-X%20Demo%20Video%20Thumbnail.png)](/CZ2006%20Lab%205%20Submissions/Demo%20Video/Biker-X%20Demo%20Video%20(99MB).mp4)
+
+
 ## Project Description
 
 <p>The Smart Nation movement went from conceptualization to real action. The ZEA (CZ2006/CE2006 Authority) launched its fourth Data-Driven Smart Nation Competition in January 2017. The goal of the competition is to elicit innovative applications that exploit the publicly available government data (https://data.gov.sg/) to change the ways we live, learn and work.You can find a list of applications that were developed using the government on the website https://data.gov.sg/. However, the number of ways to use the data to make our nation smarter is only limited by your imagination!
@@ -39,11 +43,11 @@ through the competition.
 
 | Submission | Lab Manual | Focus | Deliverables |
 | ------ | ------ | ------ | ------ |
-| [Lab 1](CZ2006_Lab_1_Submissions) | [Manual 1](Lab_Manual/CECZ2006LabManual_Lab1.pdf) |Requirements Elicitation (2 Weeks) | <li> Functional Requirements </li> <li> Non-Functional Requirements </li> <li> Data Dictionary </li> <li> UI Mockups </li> <li> Initial Use Case Model </li>|
-| [Lab 2](CZ2006_Lab_2_Submissions) | [Manual 2](Lab_Manual/CECZ2006LabManual_Lab2.pdf) | Requirements Analysis (2 Weeks) | <li> Complete Use Case Diagram </li> <li> User Case Descriptions </li> <li> Class Diagram of Entity Classes </li> <li> Identification of Major Boundary Classes and Control Classes </li> <li> Sequence Diagrams of some use cases </li> <li> Initial Dialog Map (State Machine of System UI) </li> |
-| [Lab 3](CZ2006_Lab_3_Submissions) | [Manual 3](Lab_Manual/CECZ2006LabManual_Lab3.pdf) | Design and Implementation (5 Weeks) | <li>  Complete User Case Descriptions </li> <li>  Complete Class Diagrams </li> <li> Complete Sequence Diagrams </li> <li> Complete Dialog Map </li> <li> System Architecture </li> <li> Application Skeleton </li>  |
-| [Lab 4](CZ2006_Lab_4_Submissions) | [Manual 4](Lab_Manual/CECZ2006LabManual_Lab4.pdf) | Implementation, Testing, and Preparing for Demo (2 Weeks) | <li> Test Cases and Testing Results </li> <li> Working Application </li> <li> Demo script </li> |
-| [Lab 5](CZ2006_Lab_5_Submissions) | [Manual 5](Lab_Manual/CECZ2006LabManual_Lab5.pdf) | Project Demo and Submission | <li> Live demo </li> <li> Final documentations (Compilation of all above deliverables) </li> |
+| [Lab 1](/CZ2006%20Lab%201%20Submissions/) | [Manual 1](/Lab%20Manual/CECZ2006LabManual.Lab1.pdf) |Requirements Elicitation (2 Weeks) | <li> Functional Requirements </li> <li> Non-Functional Requirements </li> <li> Data Dictionary </li> <li> UI Mockups </li> <li> Initial Use Case Model </li>|
+| [Lab 2](/CZ2006%20Lab%202%20Submissions/) | [Manual 2](/Lab%20Manual/CECZ2006LabManual.Lab2.pdf) | Requirements Analysis (2 Weeks) | <li> Complete Use Case Diagram </li> <li> User Case Descriptions </li> <li> Class Diagram of Entity Classes </li> <li> Identification of Major Boundary Classes and Control Classes </li> <li> Sequence Diagrams of some use cases </li> <li> Initial Dialog Map (State Machine of System UI) </li> |
+| [Lab 3](/CZ2006%20Lab%203%20Submissions/) | [Manual 3](/Lab%20Manual/CECZ2006LabManual.Lab3.pdf) | Design and Implementation (5 Weeks) | <li>  Complete User Case Descriptions </li> <li>  Complete Class Diagrams </li> <li> Complete Sequence Diagrams </li> <li> Complete Dialog Map </li> <li> System Architecture </li> <li> Application Skeleton </li>  |
+| [Lab 4](/CZ2006%20Lab%204%20Submissions/) | [Manual 4](/Lab%20Manual/CECZ2006LabManual.Lab4.pdf) | Implementation, Testing, and Preparing for Demo (2 Weeks) | <li> Test Cases and Testing Results </li> <li> Working Application </li> <li> Demo script </li> |
+| [Lab 5](/CZ2006%20Lab%205%20Submissions/) | [Manual 5](/Lab%20Manual/CECZ2006LabManual.Lab5.pdf) | Project Demo and Submission | <li> Live demo & presentation</li> <li> Final documentations (compilation of all above deliverables) </li> |
 
 
 
