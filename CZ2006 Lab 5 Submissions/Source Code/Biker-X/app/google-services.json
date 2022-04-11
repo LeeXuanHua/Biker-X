@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "474622647457",
+    "project_id": "biker-x-84ebd",
+    "storage_bucket": "biker-x-84ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474622647457:android:ef8ea4228163946535a4e0",
+        "android_client_info": {
+          "package_name": "com.example.bikerx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474622647457-7hig1slfso2o1a70ah2p9lj1mn5lusqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bikerx",
+            "certificate_hash": "c53461c5ea6413aec65b9d658bc8dd2fe790c8ad"
+          }
+        },
+        {
+          "client_id": "474622647457-dl8fir5pnib73080lpmkavo0r013ik4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzo_wRtBctG_Wtm5KPLUAQrYqz8QbzJWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474622647457-dl8fir5pnib73080lpmkavo0r013ik4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
