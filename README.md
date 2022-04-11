@@ -8,7 +8,7 @@
 
 
 ## Demo Video of Our Solution
-[![Demo Video](/Biker-X%20Demo%20Video%20Thumbnail.png)](/CZ2006%20Lab%205%20Submissions/Demo%20Video/Biker-X%20Demo%20Video%20(99MB).mp4)
+[![Demo Video](/Biker-X%20Demo%20Video%20Thumbnail.png)](/Biker-X%20Demo%20Video%20(Preview).mp4)
 
 
 ## Project Description
@@ -54,8 +54,8 @@ through the competition.
 ## Our Team
 | Members | Course of Study |
 | ------ | ------ |
-| Lee Xuan Hua | Year 2, NTU Business & Computer Science|
-| Liau G Wayne | Year 2, NTU Business & Computer Science|
+| Lee Xuan Hua (IC) | Year 2, NTU Business & Computer Science|
+| Liau G Wayne (2IC) | Year 2, NTU Business & Computer Science|
 | Fabrianne Effendi | Year 2, NTU Business & Computer Science|
 | Lek Jie Kai | Year 2, NTU Business & Computer Science|
 | Loh Yi Ze | Year 2, NTU Business & Computer Science|
