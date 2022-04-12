@@ -1,19 +1,28 @@
 # CZ2006-Software-Engineering-Submission
-
 <p> This is a submission folder only. For the entire git project revision and WIP, please refer to: https://github.com/LGWayneq/Biker-X </p>
 
-## Introduction to Our Solution
+
+## Introduction to Biker-X
 <p> Have you ever wanted to cycle around Singapore, only to find yourself at a loss of new cycling routes, or a biking buddy? </p>
 <p> Our solution - <i> Biker X </i> - is a mobile cycling buddy that tracks your cycling sessions and connects you with like-minded bikers. We cater to local bikers of all walks of life. Whether you are a new cyclist, leisure biking enthusiast, or a competitive biker, <i> Biker-X </i> is the perfect app to meet your needs. </p>
 
 
-## Demo Video of Our Solution
-[![Demo Video](/Biker-X%20Demo%20Video%20Thumbnail.png)](/Biker-X%20Demo%20Video%20(Preview).mp4)
+## Biker-X UI
+#### Login Feature & Home Page (Display Recommended Routes)
+![Biker-X UI Page 1](/README%20Media/UI%20Prototype-1.png)
+#### Start Cycling Session & Goal Setting
+![Biker-X UI Page 2](/README%20Media/UI%20Prototype-2.png)
+#### Display Amenities, View Cycling History & Biking Community Forum
+![Biker-X UI Page 3](/README%20Media/UI%20Prototype-3.png)
+
+
+## Biker-X Demo Video
+[![Demo Video](/README%20Media/Biker-X%20Demo%20Video%20Thumbnail.png)](https://youtu.be/EaFyU4rrO8Q)
 
 
 ## Project Description
-
-<p>The Smart Nation movement went from conceptualization to real action. The ZEA (CZ2006/CE2006 Authority) launched its fourth Data-Driven Smart Nation Competition in January 2017. The goal of the competition is to elicit innovative applications that exploit the publicly available government data (https://data.gov.sg/) to change the ways we live, learn and work.You can find a list of applications that were developed using the government on the website https://data.gov.sg/. However, the number of ways to use the data to make our nation smarter is only limited by your imagination!
+<p>
+The Smart Nation movement went from conceptualization to real action. The ZEA (CZ2006/CE2006 Authority) launched its fourth Data-Driven Smart Nation Competition in January 2017. The goal of the competition is to elicit innovative applications that exploit the publicly available government data (https://data.gov.sg/) to change the ways we live, learn and work.You can find a list of applications that were developed using the government on the website https://data.gov.sg/. However, the number of ways to use the data to make our nation smarter is only limited by your imagination!
 </p>
 
 <p>
@@ -39,6 +48,7 @@ The applications can be regular desktop applications, mobile applications, or we
 through the competition.
 </p>
 
+
 ## Roadmap & Deliverables
 
 | Submission | Lab Manual | Focus | Deliverables |
@@ -48,7 +58,6 @@ through the competition.
 | [Lab 3](/CZ2006%20Lab%203%20Submissions/) | [Manual 3](/Lab%20Manual/CECZ2006LabManual.Lab3.pdf) | Design and Implementation (5 Weeks) | <li>  Complete User Case Descriptions </li> <li>  Complete Class Diagrams </li> <li> Complete Sequence Diagrams </li> <li> Complete Dialog Map </li> <li> System Architecture </li> <li> Application Skeleton </li>  |
 | [Lab 4](/CZ2006%20Lab%204%20Submissions/) | [Manual 4](/Lab%20Manual/CECZ2006LabManual.Lab4.pdf) | Implementation, Testing, and Preparing for Demo (2 Weeks) | <li> Test Cases and Testing Results </li> <li> Working Application </li> <li> Demo script </li> |
 | [Lab 5](/CZ2006%20Lab%205%20Submissions/) | [Manual 5](/Lab%20Manual/CECZ2006LabManual.Lab5.pdf) | Project Demo and Submission | <li> Live demo & presentation</li> <li> Final documentations (compilation of all above deliverables) </li> |
-
 
 
 ## Our Team
